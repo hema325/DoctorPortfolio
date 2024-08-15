@@ -1,0 +1,6 @@
+@Ibrahim.DoctorPortfolio_HostAddress = http://localhost:5280
+
+GET {{Ibrahim.DoctorPortfolio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
