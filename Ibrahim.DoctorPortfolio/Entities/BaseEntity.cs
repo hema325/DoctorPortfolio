@@ -1,6 +1,4 @@
-﻿using Ibrahim.DoctorPortfolio.Enums;
-
-namespace Ibrahim.DoctorPortfolio.Entities
+﻿namespace Ibrahim.DoctorPortfolio.Entities
 {
     public abstract class BaseEntity
     {

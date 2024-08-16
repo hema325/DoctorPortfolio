@@ -4,12 +4,9 @@
     {
         public int Id { get; set; }
         public string ImageUrl { get; set; }
-        public string TitleAr { get; set; }
-        public string TitleEn { get; set; }
-        public string DescriptionAr { get; set; }
-        public string DescriptionEn { get; set; }
-        public string WriterNameAr { get; set; }
-        public string WriterNameEn { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string WriterName { get; set; }
         public DateTime WrittenOn { get; set; }
     }
 }

@@ -2,6 +2,7 @@ using Ibrahim.DoctorPortfolio.Data;
 using Ibrahim.DoctorPortfolio.Extensions;
 using Ibrahim.DoctorPortfolio.Extensions.DependencyInjection;
 using Ibrahim.DoctorPortfolio.Handlers;
+using Ibrahim.DoctorPortfolio.Middlewares;
 using Ibrahim.DoctorPortfolio.Services.Jwt;
 using Ibrahim.DoctorPortfolio.Settings;
 using Microsoft.AspNetCore.Identity;
@@ -40,7 +41,8 @@ builder.Services
 // dependency injection
 builder.Services
     .AddScoped<IJwtProvider, JwtProvider>()
-    .AddScoped<ApplicationDbContextInitialiser>();
+    .AddScoped<ApplicationDbContextInitialiser>()
+    .AddScoped<RequestCultureDetector>();
 
 // configurations
 builder.Services
@@ -65,6 +67,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseMiddleware<RequestCultureDetector>();
 
 app.MapControllers();
 

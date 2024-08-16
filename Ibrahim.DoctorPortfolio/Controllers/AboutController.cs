@@ -1,4 +1,6 @@
-﻿using Ibrahim.DoctorPortfolio.Data;
+﻿using AutoMapper;
+using Ibrahim.DoctorPortfolio.Data;
+using Ibrahim.DoctorPortfolio.Dtos.About;
 using Ibrahim.DoctorPortfolio.Entities;
 using Ibrahim.DoctorPortfolio.Enums;
 using Ibrahim.DoctorPortfolio.Filters;
@@ -13,10 +15,12 @@ namespace Ibrahim.DoctorPortfolio.Controllers
     public class AboutController: ApiControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMapper _mapper;
 
-        public AboutController(ApplicationDbContext context)
+        public AboutController(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -28,9 +32,9 @@ namespace Ibrahim.DoctorPortfolio.Controllers
             if (keyValue == null)
                 return NoContent();
 
-            var value = JsonSerializer.Deserialize<About>(keyValue.Value);
+            var about = JsonSerializer.Deserialize<About>(keyValue.Value);
             
-            return Ok(value);
+            return Ok(_mapper.Map<AboutDto>(about));
         }
 
         [HttpPut]
@@ -62,9 +66,9 @@ namespace Ibrahim.DoctorPortfolio.Controllers
             if (keyValue == null)
                 return NoContent();
 
-            var value = JsonSerializer.Deserialize<Shared>(keyValue.Value);
+            var shared = JsonSerializer.Deserialize<Shared>(keyValue.Value);
 
-            return Ok(value);
+            return Ok(_mapper.Map<SharedDto>(shared));
         }
 
         [HttpPut("/shared")]

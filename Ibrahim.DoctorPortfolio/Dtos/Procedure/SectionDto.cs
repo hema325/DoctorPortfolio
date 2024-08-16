@@ -2,9 +2,7 @@
 {
     public class SectionDto
     {
-        public string HeaderAr { get; set; }
-        public string HeaderEn { get; set; }
-        public string BodyAr { get; set; }
-        public string BodyEn { get; set; }
+        public string Header { get; set; }
+        public string Body { get; set; }
     }
 }
