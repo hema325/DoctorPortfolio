@@ -4,6 +4,7 @@ using Ibrahim.DoctorPortfolio.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Ibrahim.DoctorPortfolio.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240817094028_Categories")]
+    partial class Categories
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,33 +38,6 @@ namespace Ibrahim.DoctorPortfolio.Migrations
                     b.HasIndex("CategoriesId");
 
                     b.ToTable("BlogCategory");
-                });
-
-            modelBuilder.Entity("Ibrahim.DoctorPortfolio.Entities.Author", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("NameAr")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("NameEn")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NameAr")
-                        .IsUnique();
-
-                    b.HasIndex("NameEn")
-                        .IsUnique();
-
-                    b.ToTable("Authors");
                 });
 
             modelBuilder.Entity("Ibrahim.DoctorPortfolio.Entities.BeforeAfterImage", b =>
@@ -125,9 +101,6 @@ namespace Ibrahim.DoctorPortfolio.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AuthorId")
-                        .HasColumnType("int");
-
                     b.Property<string>("ContentAr")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -159,12 +132,18 @@ namespace Ibrahim.DoctorPortfolio.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("WriterNameAr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WriterNameEn")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("WrittenOn")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AuthorId");
 
                     b.ToTable("Blogs");
                 });
@@ -685,16 +664,6 @@ namespace Ibrahim.DoctorPortfolio.Migrations
                     b.Navigation("Procedure");
                 });
 
-            modelBuilder.Entity("Ibrahim.DoctorPortfolio.Entities.Blog", b =>
-                {
-                    b.HasOne("Ibrahim.DoctorPortfolio.Entities.Author", "Author")
-                        .WithMany("Blogs")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
-                    b.Navigation("Author");
-                });
-
             modelBuilder.Entity("Ibrahim.DoctorPortfolio.Entities.Procedure", b =>
                 {
                     b.HasOne("Ibrahim.DoctorPortfolio.Entities.ReviewText", "Review")
@@ -762,11 +731,6 @@ namespace Ibrahim.DoctorPortfolio.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Ibrahim.DoctorPortfolio.Entities.Author", b =>
-                {
-                    b.Navigation("Blogs");
                 });
 
             modelBuilder.Entity("Ibrahim.DoctorPortfolio.Entities.Procedure", b =>

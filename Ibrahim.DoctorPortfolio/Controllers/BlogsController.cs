@@ -31,6 +31,11 @@ namespace Ibrahim.DoctorPortfolio.Controllers
         {
             var blog = _mapper.Map<Blog>(dto);
 
+            blog.Categories = await _context.Categories.Where(c => dto.CategoryIds.Contains(c.Id)).ToListAsync();
+
+            if (blog.Categories.Count() != dto.CategoryIds.Count())
+                return BadRequest(ErrorResponse.BadRequest("One or more ids wasn't found."));
+            
             _context.Blogs.Add(blog);
             await _context.SaveChangesAsync();
 
@@ -41,10 +46,15 @@ namespace Ibrahim.DoctorPortfolio.Controllers
         [Authorize]
         public async Task<IActionResult> UpdateAsync(int id, CreateOrUpdateBlogDto dto)
         {
-            var blog = await _context.Blogs.FindAsync(id);
+            var blog = await _context.Blogs.Include(b=>b.Categories).FirstOrDefaultAsync(b=>b.Id == id);
 
             if (blog == null)
                 return NotFound(ErrorResponse.NotFound());
+
+            blog.Categories = await _context.Categories.Where(c => dto.CategoryIds.Contains(c.Id)).ToListAsync();
+
+            if (blog.Categories.Count() != dto.CategoryIds.Count())
+                return BadRequest(ErrorResponse.BadRequest("One or more ids wasn't found."));
 
             _mapper.Map(dto, blog);
 
@@ -83,9 +93,17 @@ namespace Ibrahim.DoctorPortfolio.Controllers
 
         [HttpGet]
         [Cache]
-        public async Task<IActionResult> GetAsync([FromQuery] PaginationFilterDto dto)
+        public async Task<IActionResult> GetAsync([FromQuery] BlogFilterDto dto)
         {
-            var blogs = await _context.Blogs.ProjectTo<BlogBriefDto>(_mapper.ConfigurationProvider)
+            var query = _context.Blogs.AsQueryable();
+
+            if (dto.CategoryId != null)
+                query = query.Where(b => b.Categories.Any(c => c.Id == dto.CategoryId));
+
+            if(dto.AuthorId != null)
+                query = query.Where(b => b.AuthorId == dto.AuthorId);
+
+            var blogs = await query.ProjectTo<BlogBriefDto>(_mapper.ConfigurationProvider)
                 .PaginateAsync(dto.PageNumber, dto.PageSize);
 
             return Ok(blogs);
@@ -101,6 +119,41 @@ namespace Ibrahim.DoctorPortfolio.Controllers
                 .PaginateAsync(dto.PageNumber, dto.PageSize);
 
             return Ok(blogs);
+        }
+
+        [HttpGet("{id}/related")]
+        [Cache]
+        public async Task<IActionResult> GetRelatedAsync(int id, [FromQuery] PaginationFilterDto dto)
+        {
+            var blogs = await _context.Blogs.Where(b => b.Categories.Any(c1 => _context.Categories.Where(c => c.Blogs.Any(b => b.Id == id)).Any(c2 => c1.Id == c2.Id)))
+                .ProjectTo<BlogBriefDto>(_mapper.ConfigurationProvider).PaginateAsync(dto.PageNumber, dto.PageSize);
+
+            return Ok(blogs);
+        }
+
+        [HttpGet("{id}/next-previous")]
+        public async Task<IActionResult> GetNextPreviousAsync(int id)
+        {
+            var previous = await _context.Blogs.Where(b => b.Id < id)
+                .OrderByDescending(b => b.Id)
+                .ProjectTo<BlogBriefDto>(_mapper.ConfigurationProvider)
+                .FirstOrDefaultAsync();
+
+            var next = await _context.Blogs.Where(b => b.Id > id)
+                .OrderBy(b => b.Id)
+                .ProjectTo<BlogBriefDto>(_mapper.ConfigurationProvider)
+                .FirstOrDefaultAsync();
+
+            if (previous == null && next == null)
+                return NoContent();
+
+            var nextPrevious = new BlogNextPreviousDto
+            {
+                Previous = previous,
+                Next = next
+            };
+
+            return Ok(nextPrevious);
         }
     }
 }

@@ -31,5 +31,7 @@ namespace Ibrahim.DoctorPortfolio.Data
         public DbSet<Video> Videos { get; private set; }
         public DbSet<Blog> Blogs { get; private set; }
         public DbSet<KeyValue> KeyValues { get; private set; }
+        public DbSet<Category> Categories { get; private set; }
+        public DbSet<Author> Authors { get; private set; }
     }
 }

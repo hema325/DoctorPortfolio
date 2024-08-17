@@ -13,5 +13,8 @@
         public string ContentAr { get; set; }
         public string ContentEn { get; set; }
         public string? RecommendedVideoUrl { get; set; }
+        public int? AuthorId { get; set; }
+
+        public ICollection<int> CategoryIds { get; set; }
     }
 }

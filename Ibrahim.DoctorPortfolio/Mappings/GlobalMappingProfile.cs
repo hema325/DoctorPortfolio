@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Ibrahim.DoctorPortfolio.Dtos.About;
+using Ibrahim.DoctorPortfolio.Dtos.Author;
 using Ibrahim.DoctorPortfolio.Dtos.BeforeAfter.Image;
 using Ibrahim.DoctorPortfolio.Dtos.BeforeAfter.Video;
 using Ibrahim.DoctorPortfolio.Dtos.Blog;
@@ -69,13 +70,11 @@ namespace Ibrahim.DoctorPortfolio.Mappings
             CreateMap<Blog, BlogDto>()
                 .ForMember(dest => dest.Title, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.TitleAr, src.TitleEn)))
                 .ForMember(dest => dest.Description, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.DescriptionAr, src.DescriptionEn)))
-                .ForMember(dest => dest.WriterName, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.WriterNameAr, src.WriterNameEn)))
                 .ForMember(dest => dest.Content, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.ContentAr, src.ContentEn)));
-            
+
             CreateMap<Blog, BlogBriefDto>()
                 .ForMember(dest => dest.Title, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.TitleAr, src.TitleEn)))
-                .ForMember(dest => dest.Description, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.DescriptionAr, src.DescriptionEn)))
-                .ForMember(dest => dest.WriterName, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.WriterNameAr, src.WriterNameEn))); ;
+                .ForMember(dest => dest.Description, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.DescriptionAr, src.DescriptionEn)));
             
             CreateMap<CreateOrUpdateBlogDto, Blog>();
 
@@ -106,6 +105,19 @@ namespace Ibrahim.DoctorPortfolio.Mappings
 
             CreateMap<ContactInfo, ContactInfoDto>()
                 .ForMember(dest => dest.Address, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.AddressAr, src.AddressEn)));
+
+            // category
+            CreateMap<CreateOrUpdateCategoryDto, Category>();
+
+            CreateMap<Category, CategoryDto>()
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.NameAr, src.NameEn)));
+
+            // author 
+            CreateMap<CreateOrUpdateAuthorDto, Author>();
+
+            CreateMap<Author, AuthorDto>()
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.NameAr, src.NameEn)));
+
         }
     }
 }
