@@ -14,7 +14,6 @@
         public string Title { get; set; }
         public string Quote { get; set; }
         public string Bio { get; set; }
-        public string ImageUrl { get; set; }
     }
 
     public class SecondSectionDto

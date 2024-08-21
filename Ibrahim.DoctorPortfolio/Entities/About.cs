@@ -18,7 +18,6 @@
         public string QuoteEn { get; set; }
         public string BioAr { get; set; }
         public string BioEn { get; set; }
-        public string ImageUrl { get; set; }
     }
 
     public class SecondSection

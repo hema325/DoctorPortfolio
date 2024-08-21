@@ -27,9 +27,9 @@ namespace Ibrahim.DoctorPortfolio.Filters
                     .GetRequiredService<IMemoryCache>();
 
                 var cacheKey = context.HttpContext.Request.Path +
-                    context.HttpContext.Request.QueryString + 
-                    "-Culture-" +
-                    context.HttpContext.Request.Headers["Culture"];
+                    context.HttpContext.Request.QueryString +
+                    "-Accept-Language-" +
+                    context.HttpContext.Request.Headers["Accept-Language"];
 
                 var cachedResult = cache.Get(cacheKey);
 

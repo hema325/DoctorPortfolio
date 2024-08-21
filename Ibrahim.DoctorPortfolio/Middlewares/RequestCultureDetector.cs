@@ -5,7 +5,7 @@ namespace Ibrahim.DoctorPortfolio.Middlewares
 {
     public class RequestCultureDetector : IMiddleware
     {
-        private const string LangHeader = "Culture";
+        private const string LangHeader = "Accept-Language";
 
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
