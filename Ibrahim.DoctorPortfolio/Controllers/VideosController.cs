@@ -67,6 +67,18 @@ namespace Ibrahim.DoctorPortfolio.Controllers
             return NoContent();
         }
 
+        [HttpGet("{id}")]
+        [Cache]
+        public async Task<IActionResult> GetByIdAsync(int id)
+        {
+            var video = await _context.Videos.FindAsync(id);
+
+            if(video == null)
+                return NotFound(ErrorResponse.NotFound());
+
+            return Ok(_mapper.Map<VideoDto>(video));
+        }
+
         [HttpGet]
         [Cache]
         public async Task<IActionResult> GetAsync([FromQuery] VideoFilterDto dto)

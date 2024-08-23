@@ -79,6 +79,18 @@ namespace Ibrahim.DoctorPortfolio.Controllers
 
         }
 
+        [HttpGet("{id}")]
+        [Cache]
+        public async Task<IActionResult> GetByIdAsync(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+
+            if(category == null)
+                return NotFound(ErrorResponse.NotFound());
+
+            return Ok(_mapper.Map<CategoryDto>(category));
+        }
+
         [HttpGet]
         [Cache]
         public async Task<IActionResult> GetAsync()

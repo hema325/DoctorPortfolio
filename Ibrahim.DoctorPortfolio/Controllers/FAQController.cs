@@ -68,6 +68,18 @@ namespace Ibrahim.DoctorPortfolio.Controllers
             return NoContent();
         }
 
+        [HttpGet("texts/{id}")]
+        [Cache]
+        public async Task<IActionResult> GetFAQTextByIdAsync(int id)
+        {
+            var faq = await _context.FAQTexts.FindAsync(id);
+
+            if (faq == null)
+                return NotFound(ErrorResponse.NotFound());
+
+            return Ok(_mapper.Map<FAQTextDto>(faq));
+        }
+
         [HttpGet("texts")]
         [Cache]
         public async Task<IActionResult> GetFAQTextAsync([FromQuery] FAQTextFilterDto dto)

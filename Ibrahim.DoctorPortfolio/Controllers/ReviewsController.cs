@@ -69,6 +69,18 @@ namespace Ibrahim.DoctorPortfolio.Controllers
             return NoContent();
         }
 
+        [HttpGet("texts/{id}")]
+        [Cache]
+        public async Task<IActionResult> GetReviewTextByIdAsync(int id)
+        {
+            var review = await _context.ReviewTexts.FindAsync(id);
+
+            if (review == null)
+                return NotFound(ErrorResponse.NotFound());
+
+            return Ok(_mapper.Map<ReviewTextDto>(review));
+        }
+
         [HttpGet("texts")]
         [Cache]
         public async Task<IActionResult> GetReviewTextAsync([FromQuery] PaginationFilterDto dto)

@@ -80,6 +80,18 @@ namespace Ibrahim.DoctorPortfolio.Controllers
 
         }
 
+        [HttpGet("{id}")]
+        [Cache]
+        public async Task<IActionResult> GetByIdAsync(int id)
+        {
+            var author = await _context.Authors.FindAsync(id);
+
+            if (author == null)
+                return NotFound(ErrorResponse.NotFound());
+
+            return Ok(_mapper.Map<AuthorDto>(author));
+        }
+        
         [HttpGet]
         [Cache]
         public async Task<IActionResult> GetAsync()

@@ -36,7 +36,8 @@ builder.Services
     .AddAutoMapper(Assembly.GetExecutingAssembly())
     .AddHttpContextAccessor()
     .AddJWT(builder.Configuration)
-    .AddMemoryCache();
+    .AddMemoryCache()
+    .AddDefaultCors();
 
 // dependency injection
 builder.Services
@@ -58,6 +59,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors();
 }
 
 app.UseStatusCodePagesWithReExecute("/errors/{0}");
