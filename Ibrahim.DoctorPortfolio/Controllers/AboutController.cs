@@ -11,7 +11,7 @@ using System.Text.Json;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("about")]
+    [Route("api/about")]
     public class AboutController: ApiControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -57,7 +57,7 @@ namespace Ibrahim.DoctorPortfolio.Controllers
             return NoContent();
         }
 
-        [HttpGet("/shared")]
+        [HttpGet("/api/shared")]
         [Cache]
         public async Task<IActionResult> GetContactInfoAsync()
         {
@@ -71,7 +71,7 @@ namespace Ibrahim.DoctorPortfolio.Controllers
             return Ok(_mapper.Map<SharedDto>(shared));
         }
 
-        [HttpPut("/shared")]
+        [HttpPut("/api/shared")]
         [Authorize]
         public async Task<IActionResult> UpdateContactInfoAsync(Shared shared)
         {

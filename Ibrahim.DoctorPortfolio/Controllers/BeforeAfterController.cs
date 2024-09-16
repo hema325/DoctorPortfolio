@@ -14,7 +14,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("before-after")]
+    [Route("api/before-after")]
     public class BeforeAfterController: ApiControllerBase
     {
         private readonly ApplicationDbContext _context;

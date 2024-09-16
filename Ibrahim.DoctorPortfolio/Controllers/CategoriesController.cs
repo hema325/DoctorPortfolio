@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("categories")]
+    [Route("api/categories")]
     public class CategoriesController: ApiControllerBase
     {
         private readonly ApplicationDbContext _context;

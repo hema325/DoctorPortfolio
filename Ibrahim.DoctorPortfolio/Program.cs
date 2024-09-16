@@ -65,6 +65,8 @@ if (app.Environment.IsDevelopment())
 app.UseStatusCodePagesWithReExecute("/errors/{0}");
 app.UseExceptionHandler();
 
+app.UseStaticFiles();
+
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
@@ -73,6 +75,7 @@ app.UseAuthorization();
 app.UseMiddleware<RequestCultureDetector>();
 
 app.MapControllers();
+app.MapFallbackToController("Index", "Fallback");
 
 await app.Services.InitialiseDbAsync();
 

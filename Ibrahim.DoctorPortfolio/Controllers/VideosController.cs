@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("videos")]
+    [Route("api/videos")]
     public class VideosController: ApiControllerBase
     {
         private readonly ApplicationDbContext _context;

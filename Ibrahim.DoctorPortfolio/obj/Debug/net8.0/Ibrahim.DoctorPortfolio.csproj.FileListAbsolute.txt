@@ -146,3 +146,4 @@ D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\bin\Debug\net8.0\Mic
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Debug\net8.0\Ibrahim.DoctorPortfolio.sourcelink.json
+D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\bin\Debug\net8.0\Ibrahim.DoctorPortfolio.staticwebassets.runtime.json

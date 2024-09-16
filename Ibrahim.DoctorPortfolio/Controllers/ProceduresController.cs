@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("procedures")]
+    [Route("api/procedures")]
     public class ProceduresController: ApiControllerBase
     {
         private readonly ApplicationDbContext _context;

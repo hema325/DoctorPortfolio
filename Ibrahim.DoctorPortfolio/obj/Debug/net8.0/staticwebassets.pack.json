@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.13332c7e.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.13332c7e.css"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.13332c7e.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.13332c7e.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.c15a0266.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.c15a0266.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.c15a0266.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerDailyMotion.2bda0df7.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerDailyMotion.2bda0df7.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerDailyMotion.2bda0df7.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerDailyMotion.2bda0df7.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerFacebook.32cb9298.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerFacebook.32cb9298.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerFacebook.32cb9298.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerFacebook.32cb9298.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerFilePlayer.ccc3e877.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerFilePlayer.ccc3e877.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerFilePlayer.ccc3e877.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerFilePlayer.ccc3e877.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerKaltura.c08269f7.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerKaltura.c08269f7.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerKaltura.c08269f7.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerKaltura.c08269f7.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerMixcloud.a1516917.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerMixcloud.a1516917.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerMixcloud.a1516917.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerMixcloud.a1516917.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerMux.4f641df1.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerMux.4f641df1.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerMux.4f641df1.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerMux.4f641df1.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerPreview.2a76a725.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerPreview.2a76a725.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerPreview.2a76a725.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerPreview.2a76a725.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerSoundCloud.191a7e02.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerSoundCloud.191a7e02.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerSoundCloud.191a7e02.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerSoundCloud.191a7e02.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerStreamable.4b2c2f2e.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerStreamable.4b2c2f2e.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerStreamable.4b2c2f2e.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerStreamable.4b2c2f2e.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerTwitch.5271f1d2.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerTwitch.5271f1d2.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerTwitch.5271f1d2.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerTwitch.5271f1d2.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerVidyard.91845558.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerVidyard.91845558.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerVidyard.91845558.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerVidyard.91845558.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerVimeo.1168d65d.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerVimeo.1168d65d.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerVimeo.1168d65d.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerVimeo.1168d65d.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerWistia.4d6d298d.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerWistia.4d6d298d.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerWistia.4d6d298d.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerWistia.4d6d298d.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerYouTube.9ac604a1.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerYouTube.9ac604a1.chunk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerYouTube.9ac604a1.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\reactPlayerYouTube.9ac604a1.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\-5854818776057495297_121.8f4b7e3199b6b1979db8.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\-5854818776057495297_121.8f4b7e3199b6b1979db8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\-5854818776057495301_121.a51ca198b3270b741aa9.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\-5854818776057495301_121.a51ca198b3270b741aa9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\-5945261535951699161_121 (1).f9956987491f08241650.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\-5945261535951699161_121 (1).f9956987491f08241650.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\-5945261535951699161_121.f9956987491f08241650.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\-5945261535951699161_121.f9956987491f08241650.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\-5945261535951699162_121.ff2c4c500b5c3ea42b29.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\-5945261535951699162_121.ff2c4c500b5c3ea42b29.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\-5949587534386413265_121.a7dc77052afab5b1ef74.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\-5949587534386413265_121.a7dc77052afab5b1ef74.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\1-removebg-preview (1).ffbd08bb35a26f76a8bc.png",
+      "PackagePath": "staticwebassets\\static\\media\\1-removebg-preview (1).ffbd08bb35a26f76a8bc.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\11-removebg-preview.534d3b382bb567411ecc.png",
+      "PackagePath": "staticwebassets\\static\\media\\11-removebg-preview.534d3b382bb567411ecc.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\22-removebg-preview.1de25849cf41e0057376.png",
+      "PackagePath": "staticwebassets\\static\\media\\22-removebg-preview.1de25849cf41e0057376.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\4_5893503520266522924.468d81c8a8b86bd899a0.mp4",
+      "PackagePath": "staticwebassets\\static\\media\\4_5893503520266522924.468d81c8a8b86bd899a0.mp4"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\Cover youtube.bcd3acd2a8788ebf8579.png",
+      "PackagePath": "staticwebassets\\static\\media\\Cover youtube.bcd3acd2a8788ebf8579.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\IMG1.058da296a91ae2a01046.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\IMG1.058da296a91ae2a01046.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\IMG2.47c2e650c3ffe9ccaf7d.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\IMG2.47c2e650c3ffe9ccaf7d.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\Youtube Thumbnail DINA.4d7e551841063df94478.png",
+      "PackagePath": "staticwebassets\\static\\media\\Youtube Thumbnail DINA.4d7e551841063df94478.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+      "PackagePath": "staticwebassets\\static\\media\\fa-brands-400.0ff70dcbf135d859ebf3.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-brands-400.bb8d5a145e22822103fb.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\fa-brands-400.bb8d5a145e22822103fb.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+      "PackagePath": "staticwebassets\\static\\media\\fa-regular-400.17a6e1aebccdbaa39e78.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-regular-400.bc3722686635b5f86132.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\fa-regular-400.bc3722686635b5f86132.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+      "PackagePath": "staticwebassets\\static\\media\\fa-solid-900.07ed6d5fa32c1d54af0f.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-solid-900.93f719f4d62bfa3e748c.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\fa-solid-900.93f719f4d62bfa3e748c.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-v4compatibility.0f6cb412603527bda691.ttf",
+      "PackagePath": "staticwebassets\\static\\media\\fa-v4compatibility.0f6cb412603527bda691.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+      "PackagePath": "staticwebassets\\static\\media\\fa-v4compatibility.6cfec8414be20e2c3426.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\logo-no-background.f5a9e060d26c3584a5d8.png",
+      "PackagePath": "staticwebassets\\static\\media\\logo-no-background.f5a9e060d26c3584a5d8.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\patient-selfie.2c4a3aaaf190d282feaf.jpg",
+      "PackagePath": "staticwebassets\\static\\media\\patient-selfie.2c4a3aaaf190d282feaf.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\pattern-01.19ce90e2755c14fa36fa.png",
+      "PackagePath": "staticwebassets\\static\\media\\pattern-01.19ce90e2755c14fa36fa.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\slick.2630a3e3eab21c607e21.svg",
+      "PackagePath": "staticwebassets\\static\\media\\slick.2630a3e3eab21c607e21.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\slick.295183786cd8a1389865.woff",
+      "PackagePath": "staticwebassets\\static\\media\\slick.295183786cd8a1389865.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\slick.a4e97f5a2a64f0ab1323.eot",
+      "PackagePath": "staticwebassets\\static\\media\\slick.a4e97f5a2a64f0ab1323.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\slick.c94f7671dcc99dce43e2.ttf",
+      "PackagePath": "staticwebassets\\static\\media\\slick.c94f7671dcc99dce43e2.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\اشراقة دينا.6f16f994cea1ed93fee7.png",
+      "PackagePath": "staticwebassets\\static\\media\\اشراقة دينا.6f16f994cea1ed93fee7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\دينا 2.7fb64f236597ff78eb59.png",
+      "PackagePath": "staticwebassets\\static\\media\\دينا 2.7fb64f236597ff78eb59.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\شفايف 74.1f20f7106e922648f22f.png",
+      "PackagePath": "staticwebassets\\static\\media\\شفايف 74.1f20f7106e922648f22f.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\شفايف 77.92fc445f7b17dd62d840.png",
+      "PackagePath": "staticwebassets\\static\\media\\شفايف 77.92fc445f7b17dd62d840.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\كارت 2.da32347f0b9298189380.png",
+      "PackagePath": "staticwebassets\\static\\media\\كارت 2.da32347f0b9298189380.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\لوجو دينا المعدل.f1da243531d7b7957659.png",
+      "PackagePath": "staticwebassets\\static\\media\\لوجو دينا المعدل.f1da243531d7b7957659.png"
+    },
+    {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\media\\لوجو_دينا_المعدل_1-removebg-preview.cacf260c8d3f7d5b8753.png",
+      "PackagePath": "staticwebassets\\static\\media\\لوجو_دينا_المعدل_1-removebg-preview.cacf260c8d3f7d5b8753.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ibrahim.DoctorPortfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Ibrahim.DoctorPortfolio.props",
+      "PackagePath": "build\\Ibrahim.DoctorPortfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Ibrahim.DoctorPortfolio.props",
+      "PackagePath": "buildMultiTargeting\\Ibrahim.DoctorPortfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Ibrahim.DoctorPortfolio.props",
+      "PackagePath": "buildTransitive\\Ibrahim.DoctorPortfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

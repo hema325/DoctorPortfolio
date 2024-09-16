@@ -14,7 +14,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("reviews")]
+    [Route("api/reviews")]
     public class ReviewsController : ApiControllerBase
     {
         private readonly ApplicationDbContext _context;

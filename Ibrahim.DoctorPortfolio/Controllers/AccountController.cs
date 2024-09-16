@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
+    [Route("api/account")]
     public class AccountController: ApiControllerBase
     {
         private readonly IJwtProvider _jwtProvider;

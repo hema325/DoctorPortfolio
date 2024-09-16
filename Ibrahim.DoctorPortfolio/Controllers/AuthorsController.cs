@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("authors")]
+    [Route("api/authors")]
     public class AuthorsController: ApiControllerBase
     {
         private readonly ApplicationDbContext _context;

@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ibrahim.DoctorPortfolio.Controllers
 {
-    [Route("faq")]
+    [Route("api/faq")]
     public class FAQController : ApiControllerBase
     {
         private readonly ApplicationDbContext _context;
