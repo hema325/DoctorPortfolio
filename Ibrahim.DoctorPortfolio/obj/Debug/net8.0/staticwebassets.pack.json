@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\asset-manifest.json"
     },
     {
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\download__1_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\download__1_-removebg-preview.png"
+    },
+    {
       "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
@@ -25,24 +29,24 @@
       "PackagePath": "staticwebassets\\robots.txt"
     },
     {
-      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.13332c7e.css",
-      "PackagePath": "staticwebassets\\static\\css\\main.13332c7e.css"
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.d4918f66.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.d4918f66.css"
     },
     {
-      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.13332c7e.css.map",
-      "PackagePath": "staticwebassets\\static\\css\\main.13332c7e.css.map"
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.d4918f66.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.d4918f66.css.map"
     },
     {
-      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js",
-      "PackagePath": "staticwebassets\\static\\js\\main.c15a0266.js"
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.a08002fd.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.a08002fd.js"
     },
     {
-      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js.LICENSE.txt",
-      "PackagePath": "staticwebassets\\static\\js\\main.c15a0266.js.LICENSE.txt"
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.a08002fd.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.a08002fd.js.LICENSE.txt"
     },
     {
-      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js.map",
-      "PackagePath": "staticwebassets\\static\\js\\main.c15a0266.js.map"
+      "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.a08002fd.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.a08002fd.js.map"
     },
     {
       "Id": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerDailyMotion.2bda0df7.chunk.js",

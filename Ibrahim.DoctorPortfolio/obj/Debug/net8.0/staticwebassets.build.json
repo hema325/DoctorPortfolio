@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MH6MYqd0YdZ9d5BWzMM2En7Pbkp3Qx7yG7FJh6/fywY=",
+  "Hash": "jrcogPvQuIZ2YPdgcjqzNd0g+6n/7IKwfZJHUq/zFMQ=",
   "Source": "Ibrahim.DoctorPortfolio",
   "BasePath": "_content/Ibrahim.DoctorPortfolio",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\asset-manifest.json"
+    },
+    {
+      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\download__1_-removebg-preview.png",
+      "SourceId": "Ibrahim.DoctorPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\",
+      "BasePath": "_content/Ibrahim.DoctorPortfolio",
+      "RelativePath": "download__1_-removebg-preview.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\download__1_-removebg-preview.png"
     },
     {
       "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\index.html",
@@ -131,12 +150,12 @@
       "OriginalItemSpec": "wwwroot\\robots.txt"
     },
     {
-      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.13332c7e.css",
+      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.d4918f66.css",
       "SourceId": "Ibrahim.DoctorPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\",
       "BasePath": "_content/Ibrahim.DoctorPortfolio",
-      "RelativePath": "static/css/main.13332c7e.css",
+      "RelativePath": "static/css/main.d4918f66.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\css\\main.13332c7e.css"
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.d4918f66.css"
     },
     {
-      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.13332c7e.css.map",
+      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\css\\main.d4918f66.css.map",
       "SourceId": "Ibrahim.DoctorPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\",
       "BasePath": "_content/Ibrahim.DoctorPortfolio",
-      "RelativePath": "static/css/main.13332c7e.css.map",
+      "RelativePath": "static/css/main.d4918f66.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\css\\main.13332c7e.css.map"
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.d4918f66.css.map"
     },
     {
-      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js",
+      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.a08002fd.js",
       "SourceId": "Ibrahim.DoctorPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\",
       "BasePath": "_content/Ibrahim.DoctorPortfolio",
-      "RelativePath": "static/js/main.c15a0266.js",
+      "RelativePath": "static/js/main.a08002fd.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.c15a0266.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.a08002fd.js"
     },
     {
-      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js.LICENSE.txt",
+      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.a08002fd.js.LICENSE.txt",
       "SourceId": "Ibrahim.DoctorPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\",
       "BasePath": "_content/Ibrahim.DoctorPortfolio",
-      "RelativePath": "static/js/main.c15a0266.js.LICENSE.txt",
+      "RelativePath": "static/js/main.a08002fd.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.c15a0266.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.a08002fd.js.LICENSE.txt"
     },
     {
-      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.c15a0266.js.map",
+      "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\main.a08002fd.js.map",
       "SourceId": "Ibrahim.DoctorPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\",
       "BasePath": "_content/Ibrahim.DoctorPortfolio",
-      "RelativePath": "static/js/main.c15a0266.js.map",
+      "RelativePath": "static/js/main.a08002fd.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,7 +242,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.c15a0266.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.a08002fd.js.map"
     },
     {
       "Identity": "D:\\Projects\\Ibrahim.DoctorPortfolio\\Ibrahim.DoctorPortfolio\\wwwroot\\static\\js\\reactPlayerDailyMotion.2bda0df7.chunk.js",

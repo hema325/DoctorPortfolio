@@ -1,6 +1,7 @@
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\PubTmp\Out\Ibrahim.DoctorPortfolio.exe
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\PubTmp\Out\libman.json
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\PubTmp\Out\Ibrahim.DoctorPortfolio.dll
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\PubTmp\Out\Ibrahim.DoctorPortfolio.runtimeconfig.json
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\PubTmp\Out\Ibrahim.DoctorPortfolio.pdb

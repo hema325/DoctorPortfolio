@@ -147,3 +147,4 @@ D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\I
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\Ibrahim.DoctorPortfolio.genruntimeconfig.cache
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\obj\Release\net8.0\ref\Ibrahim.DoctorPortfolio.dll
 D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\bin\Release\net8.0\Ibrahim.DoctorPortfolio.staticwebassets.runtime.json
+D:\Projects\Ibrahim.DoctorPortfolio\Ibrahim.DoctorPortfolio\bin\Release\net8.0\libman.json

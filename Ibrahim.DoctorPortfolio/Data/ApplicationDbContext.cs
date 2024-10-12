@@ -33,5 +33,6 @@ namespace Ibrahim.DoctorPortfolio.Data
         public DbSet<KeyValue> KeyValues { get; private set; }
         public DbSet<Category> Categories { get; private set; }
         public DbSet<Author> Authors { get; private set; }
+        public DbSet<ContactUs> ContactUs { get; private set; }
     }
 }

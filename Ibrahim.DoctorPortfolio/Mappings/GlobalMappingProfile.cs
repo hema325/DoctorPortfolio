@@ -5,6 +5,7 @@ using Ibrahim.DoctorPortfolio.Dtos.BeforeAfter.Image;
 using Ibrahim.DoctorPortfolio.Dtos.BeforeAfter.Video;
 using Ibrahim.DoctorPortfolio.Dtos.Blog;
 using Ibrahim.DoctorPortfolio.Dtos.Category;
+using Ibrahim.DoctorPortfolio.Dtos.ContactUs;
 using Ibrahim.DoctorPortfolio.Dtos.FAQ.Text;
 using Ibrahim.DoctorPortfolio.Dtos.FAQ.Video;
 using Ibrahim.DoctorPortfolio.Dtos.Review.Text;
@@ -118,6 +119,10 @@ namespace Ibrahim.DoctorPortfolio.Mappings
             CreateMap<Author, AuthorDto>()
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => LocalizationHelpers.Localize(src.NameAr, src.NameEn)));
 
+
+            // contact us
+            CreateMap<CreateContactUsDto, ContactUs>();
+            CreateMap<ContactUs, ContactUsDto>();
         }
     }
 }
